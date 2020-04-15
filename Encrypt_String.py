@@ -5,7 +5,7 @@ file = open("key.key", "rb")
 key = file.read()
 file.close()
 
-message = raw_input("Enter msg you want to encrypt.: ")
+message = raw_input("Enter msg you want to encrypt: ")
 encoded = message.encode()
 
 f = Fernet(key)
