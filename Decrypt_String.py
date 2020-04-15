@@ -4,7 +4,7 @@ file = open("key.key", "rb")
 key = file.read()
 file.close()
 
-message = raw_input("Enter the encrypted text.: ")
+message = raw_input("Enter the encrypted text: ")
 encrypted = message
 
 f = Fernet(key)
