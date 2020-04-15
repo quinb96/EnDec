@@ -18,7 +18,7 @@ try:
 		[6] Decrypt a file
 
 		""")
-	Choice = raw_input("Select what you want to do. ")
+	Choice = raw_input("Select what you want to do: ")
 
 	if Choice == "1":
 		subprocess.call(["clear"])
