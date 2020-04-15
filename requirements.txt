@@ -1,0 +1,4 @@
+pynput==1.6.8
+cryptography==2.9
+fernet==1.0.1
+subprocess==17.5.1
