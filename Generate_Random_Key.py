@@ -12,5 +12,4 @@ file.close()
 os.path.abspath("key.key")
 
 time.sleep(1)
-print("\nKey has been created and saved to " + os.path.abspath("key.key") + "." + "Do not rename the key. Also remember to keep the key in a safe place...
-      
+print("\nKey has been created and saved to " + os.path.abspath("key.key") + ". " + "Do not rename the key. Also remember to keep the key in a safe place...")
