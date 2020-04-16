@@ -18,4 +18,4 @@ filename = raw_input("What do you wanna name the file?: (Add .txt to the end of 
 
 with open(filename + ".enc", "wb") as f:
 	f.write(encrypted)
-	print "\nThe encrypted file has been saved as " + filename + ".enc"
+	print "The encrypted file has been saved as " + filename + ".enc" + "\n"
