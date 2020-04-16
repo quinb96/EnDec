@@ -8,7 +8,7 @@ import time
 plaintxt_pass = raw_input("Enter the password you want for the key: ")
 encoded_pass = plaintxt_pass.encode()
 
-salt = b'*>L\x12\x04\x84\xc2\xa56\xd0*9\xadcB\xa8'
+#salt = Add your own salt by using os.urandom(any number)
 kdf = PBKDF2HMAC(
 	algorithm = hashes.SHA256(),
 	length = 32,
