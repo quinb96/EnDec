@@ -46,9 +46,9 @@ except:
 	time.sleep(2)
 	Choice = raw_input("[Y]es or [N]o: ")
 
-	if Choice == "y" or "Y":
+	if Choice == "y" or Choice == "Y":
 		subprocess.call(["python2", "EnDec.py"])
-	elif Choice == "n" or "N":
+	elif Choice == "n" or Choice == "N":
 		time.sleep(1)
 		print"\nExiting script...Go to https://github.com/sketchyboi14/EnDec to report issues."
 		time.sleep(3)
