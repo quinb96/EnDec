@@ -20,4 +20,4 @@ Creating your own salt for Generate_Key_With_Pwd.py:
 Open the Generate_Key_With_Pwd.py file with any text editor you want.
 Open your terminal and type in python2. Right arrows shoud come up.
 Now type "os.urandom()" without the quotes. This will generate a random salt and print it out on the terminal.
-Then you copy that salt and paste it on the line that says "salt =". Make sure to delete the "#" hashtag before "salt =" so the script will be able to run.
+Then you copy that salt and paste it in the Generate_Key_With_Pwd.py file. Find the line that says "# salt =". Make sure there's one space after the equal sign and paste the salt. Make sure to delete the "#" hashtag which is placed before "salt =" so the script doesn't come up with an error.
