@@ -27,4 +27,4 @@ file.write(key)
 file.close()
 os.path.abspath("key.key")
 
-print"\nYour key has been created and saved to " + os.path.abspath("key.key") + " Do not rename the key. Also remember to keep the key in a safe place...")
+print("\nYour key has been created and saved to " + os.path.abspath("key.key") + " Do not rename the key. Also remember to keep the key in a safe place...")
