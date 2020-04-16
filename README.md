@@ -1,5 +1,5 @@
 # EnDec
-Simple encryption and decrytion CLI
+Simple encryption and decryption CLI
 
 Installing Libraries:
 Open your terminal
