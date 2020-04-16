@@ -44,11 +44,11 @@ except:
 	
 	print "\n\nWould you like to go back to the main menu?"
 	time.sleep(2)
-	Choice = raw_input("y/n?: ")
+	Choice = raw_input("[Y]es or [N]o: ")
 
-	if Choice == "y":
+	if Choice == "y" or "Y":
 		subprocess.call(["python2", "EnDec.py"])
-	elif Choice == "n":
+	elif Choice == "n" or "N":
 		time.sleep(1)
 		print"\nExiting script...Go to https://github.com/sketchyboi14/EnDec to report issues."
 		time.sleep(3)
