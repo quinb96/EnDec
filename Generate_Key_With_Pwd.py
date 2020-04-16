@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import time
 
-plaintxt_pass = raw_input("Enter the password you want for the key.: ")
+plaintxt_pass = raw_input("Enter the password you want for the key: ")
 encoded_pass = plaintxt_pass.encode()
 
 salt = b'*>L\x12\x04\x84\xc2\xa56\xd0*9\xadcB\xa8'
@@ -27,4 +27,4 @@ file.write(key)
 file.close()
 os.path.abspath("key.key")
 
-print("\nYour key has been created and saved to " + os.path.abspath("key.key") + " Do not rename the key. Also remember to keep the key in a safe place...")
+print("Your key has been created and saved to " + os.path.abspath("key.key") + " Do not rename the key. Also remember to keep the key in a safe place...\n")
