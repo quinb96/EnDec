@@ -3,7 +3,7 @@ import time
 import subprocess
 
 try:
-	print ("[+]Thank you for using my program. To report bugs, please email quinb96@protonmail.com[+]")
+	print ("[+]Thank you for using my program. To report bugs, go to https://github.com/sketchyboi14/EnDec/issues.)
 	time.sleep(5)
 
 	subprocess.call(["clear"])
@@ -50,6 +50,6 @@ except:
 		subprocess.call(["python2", "EnDec.py"])
 	elif Choice == "n" or Choice == "N":
 		time.sleep(1)
-		print"\nExiting script...Go to https://github.com/sketchyboi14/EnDec to report issues."
+		print"\nExiting script...Go to https://github.com/sketchyboi14/EnDec/issues to report issues."
 		time.sleep(3)
 		quit()
