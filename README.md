@@ -3,7 +3,7 @@ Simple encryption and decryption CLI
 
 Installing Libraries:
 Open your terminal
-Type: pip3 install -r requirements.txt
+Type: pip2 install -r requirements.txt
 
 This will install all the necessary python libraries needed for the script.
 
