@@ -10,5 +10,5 @@ encoded = message.encode()
 
 f = Fernet(key)
 encrypted = f.encrypt(encoded)
-print("Encrypted: " + encrypted)
 file.write(encrypted)
+print("Encrypted: " + encrypted)
