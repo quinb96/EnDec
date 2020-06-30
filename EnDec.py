@@ -22,22 +22,22 @@ try:
 
 	if Choice == "1":
 		subprocess.call(["clear"])
-		import Generate_Key_With_Pwd.py
+		import Generate_Key_With_Pwd
 	elif Choice == "2":
 		subprocess.call(["clear"])
-		import Generate_Random_Key.py
+		import Generate_Random_Key
 	elif Choice == "3":
 		subprocess.call(["clear"])
-		import Encrypt_String.py
+		import Encrypt_String
 	elif Choice == "4":
 		subprocess.call(["clear"])
-		import Encrypt_File.py
+		import Encrypt_File
 	elif Choice == "5":
 		subprocess.call(["clear"])
 		import Decrypt_String.py
 	elif Choice == "6":
 		subprocess.call(["clear"])
-		import Decrypt_File.py
+		import Decrypt_File
 except:
 	KeyboardInterrupt()
 	time.sleep(1)
